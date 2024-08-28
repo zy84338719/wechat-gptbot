@@ -8,19 +8,17 @@ require (
 	github.com/chai2010/webp v1.1.2-0.20220219151144-e81c7511b15a
 	github.com/eatmoreapple/openwechat v1.4.7
 	github.com/gin-gonic/gin v1.10.0
-	github.com/go-git/go-git/v5 v5.11.0
-	github.com/google/uuid v1.4.0
-	github.com/imroc/req/v3 v3.43.1
+	github.com/imroc/req/v3 v3.43.4
 	github.com/json-iterator/go v1.1.12
 	github.com/mmcdole/gofeed v1.3.0
 	github.com/redis/go-redis/v9 v9.5.3
-	github.com/robfig/cron/v3 v3.0.0
 	github.com/sashabaranov/go-openai v1.25.0
 	github.com/sirupsen/logrus v1.9.3
 	github.com/skip2/go-qrcode v0.0.0-20200617195104-da1b6568686e
 	github.com/tidwall/gjson v1.17.1
 	github.com/yi-nology/common v0.2.8
 	github.com/yi-nology/sdk v0.0.0-20240626073829-1880d36dc670
+	gorm.io/gorm v1.25.10
 )
 
 require (
@@ -35,14 +33,11 @@ require (
 	github.com/cloudflare/circl v1.3.7 // indirect
 	github.com/cloudwego/base64x v0.1.4 // indirect
 	github.com/cloudwego/iasm v0.2.0 // indirect
-	github.com/cyphar/filepath-securejoin v0.2.4 // indirect
 	github.com/dgryski/go-rendezvous v0.0.0-20200823014737-9f7001d12a5f // indirect
 	github.com/fsnotify/fsnotify v1.7.0 // indirect
 	github.com/gabriel-vasile/mimetype v1.4.4 // indirect
 	github.com/gin-contrib/sse v0.1.0 // indirect
 	github.com/go-basic/ipv4 v1.0.0 // indirect
-	github.com/go-git/gcfg v1.5.1-0.20230307220236-3a3c6141e376 // indirect
-	github.com/go-git/go-billy/v5 v5.5.0 // indirect
 	github.com/go-playground/locales v0.14.1 // indirect
 	github.com/go-playground/universal-translator v0.18.1 // indirect
 	github.com/go-playground/validator/v10 v10.22.0 // indirect
@@ -68,7 +63,6 @@ require (
 	github.com/montanaflynn/stats v0.7.1 // indirect
 	github.com/onsi/ginkgo/v2 v2.16.0 // indirect
 	github.com/pelletier/go-toml/v2 v2.2.2 // indirect
-	github.com/pjbgf/sha1cd v0.3.0 // indirect
 	github.com/pkg/errors v0.9.1 // indirect
 	github.com/qiniu/qmgo v1.1.8 // indirect
 	github.com/quic-go/qpack v0.4.0 // indirect
@@ -107,9 +101,7 @@ require (
 	golang.org/x/tools v0.22.0 // indirect
 	google.golang.org/protobuf v1.34.2 // indirect
 	gopkg.in/ini.v1 v1.67.0 // indirect
-	gopkg.in/warnings.v0 v0.1.2 // indirect
 	gopkg.in/yaml.v2 v2.4.0 // indirect
 	gopkg.in/yaml.v3 v3.0.1 // indirect
 	gorm.io/driver/mysql v1.5.7 // indirect
-	gorm.io/gorm v1.25.10 // indirect
 )
