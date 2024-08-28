@@ -1,0 +1,20 @@
+version: '2.25'
+services:
+  wechat-gptbot:
+    image: 1003941268/wechat-gptbot:latest
+    ports:
+      - "8501:8501"
+    container_name: wechat-gptbot
+    privileged: true
+    build:
+      context: .
+      dockerfile: dockerfile
+    volumes:
+      - ./token.json:/code/token.json
+      - ./config:/code/config
+    network_mode: bridge
+    environment:
+      - TZ=Asia/Shanghai
+    restart: always
+    sysctls:
+      net.core.somaxconn: 16384

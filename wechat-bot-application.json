@@ -1,0 +1,9 @@
+{
+  "appId": "wechat-bot",
+  "cluster": "default",
+  "namespaceName": "application",
+  "releaseKey": "xxxx",
+  "configurations": {
+    "a": "a"
+  }
+}

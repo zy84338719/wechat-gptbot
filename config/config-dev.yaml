@@ -1,0 +1,42 @@
+apollo:
+  enable: true
+  appId: wechat-bot
+  cluster: DEV
+  namespaceName: application,tempConfig.json
+  endpoint: http://xxxx
+  secret: xxx
+  dynamic: true
+  interval: 5
+  isBackupConfig: true
+  mustStart: false
+
+redis:
+  enable: true
+  addr: xxxxx:6379
+  password: xxxxxxx
+  db: 1
+
+mysql:
+  enable: true
+  prefix: ""
+  port: "3306"
+  config: charset=utf8mb4&parseTime=True&loc=Local
+  db-name: wechat_bot_dev
+  username: xxxx
+  password: xxxxxxx
+  path: vpn.enjoye.top
+  engine: ""
+  log-mode: error
+  max-idle-conns: 10
+  max-open-conns: 100
+  singular: false
+  log-zap: false
+
+self_gpt:
+  base_url: http://xxxxxx:11435/api
+  keyword_authorization: xxxxxxx
+  gpt_authorization: xxxxx
+crawler_domain: http://xxxx:18891
+film_domain: https://xxxxx/film
+shorturl_domain: https://xxxxx/shorturl
+moyu_domain: https://xxxxx/moyu
